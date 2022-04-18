@@ -1,0 +1,72 @@
+  
+  span, p, body {
+    caret-color: transparent;
+  }
+
+  body {
+    overflow: hidden;
+  }
+
+  li {
+    margin: 5px;
+  }
+
+  #canvas {
+      border: 5px solid black;
+      height: 670px;
+  }
+  
+  #clickPoint {
+    text-align: center;
+    font-size: 25px;
+    position: absolute;   
+    z-index: 999;
+    top: 50px;
+    left: 50px;
+ }
+
+  #circleSquare {
+    text-align: center;
+    font-size: 25px;
+    position: absolute;   
+    z-index: 999;
+    top: 50px;
+    left: 50px;
+  }
+
+  .circle {
+    height: 11px;
+    width: 11px;
+    border-color: red; /* Цвет границы */ 
+    border-style: solid; /* Стиль границы */  
+    border-radius: 50%;
+    display: inline-block;
+    caret-color: transparent;
+    z-index: 9999;
+  }
+
+  #center {
+    height: 11px;
+    width: 11px;
+    border-color: yellow; /* Цвет границы */ 
+    border-style: solid; /* Стиль границы */  
+    border-radius: 50%;
+    display: inline-block;
+    caret-color: transparent;
+    z-index: -999;
+  }
+
+  .nav-btw {
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+  }
+
+  .nav-bar {
+      list-style: none;
+  }
+
+  button:hover {
+      border: 3px solid black;
+      font-weight: 600;
+  }
